@@ -29,7 +29,7 @@ exec es-pending-tasks-monitor -e http://localhost:9200 -l LOGSENE_TOKEN -s SPM_T
 ```
 
 References:
-- [Logsene](http://sematext.com/logsene/index.html) - using ELasticsearch API
+- [Logsene](http://sematext.com/logsene/index.html) - Hosted ELK Stack and Alerts
 - [logsene-js](https://www.npmjs.com/package/logsene-js)
 - [SPM Custom Metrics for Node.js](http://blog.sematext.com/2015/04/14/nodejs-iojs-custom-metrics/)
 
