@@ -1,0 +1,27 @@
+{
+  "name": "pending-task-monitor",
+  "version": "1.0.0",
+  "description": "Monitors pending tasks for Elasticsearch clusters",
+  "main": "index.js",
+  "bin": {
+    "es-pending-tasks-monitor": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/megastef/es-pending-task-monitor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/megastef/es-pending-task-monitor/issues"
+  },
+  "author": "Stefan Thies",
+  "license": "ISC",
+  "dependencies": {
+    "logsene-js": "^1.0.7",
+    "minimist": "^1.1.3",
+    "restler": "^3.3.0",
+    "spm-metrics-js": "^1.0.7"
+  }
+}
